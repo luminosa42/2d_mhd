@@ -1,0 +1,13 @@
+.SUFFIXES : .f90 .c
+
+.f90.o :
+	ifort -O3 -r8 -i4 -c $*.f90
+
+.c.o :
+	icc -O3 -c $*.c
+
+driver2d : driver2d.o init.o plm1d.o god1d.o riemann.o
+	ifort -O3 -o driver2d driver2d.o init.o plm1d.o god1d.o riemann.o
+
+clean :
+	rm driver2d *.o
