@@ -1,4 +1,6 @@
 ! Initialization routine for homework #2 (Fortran version)
+! Yinghe Lu 4/7/16
+! Current initialization works on the Sedov explosion problem. Others to follow.
 
 ! Arguments:
 
