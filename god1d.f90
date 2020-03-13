@@ -3,7 +3,7 @@
 ! This routine updates a 2D uniform Cartesian mesh in either the x or the
 ! y direction.
 !
-! Paul Ricker 2/10/03
+! Rewritten by Yinghe, from the original Ricker test code
 
 subroutine god1d (rho, P, Etot, ux, uy, Nx, Ny, Nbz, dx, dy, dt, gamma, dir)
 
