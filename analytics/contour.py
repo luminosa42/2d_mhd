@@ -1,3 +1,7 @@
+# Python script to read in hydro/mhd solver data and plot contours
+# Provided: density, pressure, magnetic field strength
+# Yinghe Lu 4/8/16
+
 import os
 import numpy as np
 import matplotlib.pyplot as plt
