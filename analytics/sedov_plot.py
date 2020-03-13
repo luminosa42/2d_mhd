@@ -1,3 +1,8 @@
+# Python program to compare simulation outputs vs. analytical solutions
+# Of Sedov problem
+
+# Yinghe Lu 4/8/16
+
 import matplotlib.pyplot as plt
 import numpy as np
 
